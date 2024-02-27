@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh;
+    background-image: url(nZgK5r.gif);
+}
+div{
+    text-align: center;
+    padding: 10%;
+    width: 150px;
+    height: 150px;
+    background: blur(20%);
+    border: solid 1px rgb(233, 140, 140);
+    background-color:rgb(253, 254, 255);
+    border-radius: 20px;
+    
+}
+button{
+    background-color: rgb(10, 10, 10);
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
